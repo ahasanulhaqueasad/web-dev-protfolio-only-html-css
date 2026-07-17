@@ -30,6 +30,11 @@ A modern, responsive web developer portfolio website built from scratch. This pr
 ## 🌐 Live Demo
 [https://ahasanulhaqueasad.github.io/web-dev-protfolio-only-html-css/](https://ahasanulhaqueasad.github.io/web-dev-protfolio-only-html-css/)
 
+## 👨‍💻 Visitor Counter
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahasanulhaqueasad&theme=dracula" alt="Profile Summary"/>
+</p>
+
 ```
 ## 🚀 How to View
 

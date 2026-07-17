@@ -118,6 +118,42 @@ nav li a:hover {
     width: 600px; 
 }
 
+/* about section  */
+.about-section{
+    text-align: center;
+    margin: 80px 150px;
+    padding: 50px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+.about-box{
+    padding: 30px;
+    /* border: 1px solid; */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 80px #ffc8a0;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.info-title{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
 /* Responsive (ছোট স্ক্রিনের জন্য) */
 @media screen and (max-width: 768px) {
     nav, .banner { padding: 20px 30px; flex-direction: column; text-align: center; }

@@ -1,0 +1,126 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.text-primary { color: #FD6E0A; }
+.dark-2 { color: #474747; }
+
+.btn-primary {
+    padding: 15px 30px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-primary:hover { background-color: #e05e00; }
+
+.contact-btn {
+    padding: 15px 30px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contact-btn:hover { background-color: #FD6E0A; color: white; }
+
+/* header */
+header {
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), 
+                      url("../images/header_bg.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right bottom;
+    background-size: auto, 900px;
+}
+
+/* Nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 130px;
+}
+
+.nav-title { 
+    font-weight: 800; 
+    font-size: 45px; 
+}
+
+nav ul { 
+    display: flex; 
+    gap: 30px; 
+    align-items: center; 
+}
+
+nav ul li { 
+    list-style: none; 
+    font-weight: 600; 
+}
+
+nav li a { 
+    text-decoration: none; 
+    color: #474747; 
+    transition: 0.3s; 
+}
+nav li a:hover { 
+    color: #FD6E0A; 
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 130px;
+}
+
+.banner-greetings { 
+    font-weight: 600; 
+    font-size: 45px; 
+    margin-bottom: 5px; 
+}
+
+.banner-title { 
+    font-weight: 700; 
+    font-size: 85px; 
+    line-height: 1.1; 
+    margin-bottom: 20px; }
+
+.banner-description { 
+    margin-bottom: 30px; 
+    line-height: 1.8; 
+    max-width: 500px; 
+}
+
+.banner-btn { 
+    display: flex; 
+    gap: 20px; 
+}
+
+.banner-profile-pic { 
+    width: 600px; 
+}
+
+/* Responsive (ছোট স্ক্রিনের জন্য) */
+@media screen and (max-width: 768px) {
+    nav, .banner { padding: 20px 30px; flex-direction: column; text-align: center; }
+    .banner-title { font-size: 50px; }
+    .banner-profile-pic { width: 100%; margin-top: 30px; }
+}
